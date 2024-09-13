@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap");
+
+/* Root Color */
+:root {
+    --bg-primary: #e6f0ff;
+    --bg-light-primary: #f5fafe;
+    --text-heading: #000336;
+    --btn-bg: #0f1b4c;
+    --text-normal: #5a6473;
+    --text-primary: #4f5361;
+    --text-blue: #0689ff;
+    --card-bg: #17275f;
+    --text-black: #000000;
+    --text-white: #ffffff;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    background-color: var(--bg-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .nav-list{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .nav-list ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  .nav-list ul li a{
+    color: var(--text-normal);
+    text-decoration: none;
+    font-weight: 500;
+    list-style: none;
+  }
+
+  .nav-list ul li a:hover{
+    color: var(--btn-bg);
+  }
+
+  .container {
+    width: 85vw;
+    max-width: 1110px;
+    margin: auto;
+  }
+
+  #logo {
+    height: 1.4rem;
+
+  }
+
+  .btn {
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btn-dark{
+    background-color: var(--btn-bg);
+    color: var(--bg-primary );
+  }
+
+  .home {
+    background-color: var(--bg-primary);
+    height: 100vh;
+  }
+
+  .home-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .home-container,
+  .home-left p, h1{
+    color: var(--text-heading);
+  }
+
+  .home-container, 
+  .home-left {
+    flex: 1;
+  }
+
+  .home-left button {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--btn-bg);
+    color: var(--bg-primary );
+    margin-top: 30px;
+  }
+
+
+  .home-right img {
+    width: 500px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
